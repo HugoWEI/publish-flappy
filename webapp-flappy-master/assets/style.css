@@ -1,0 +1,200 @@
+
+
+.siteMain{
+    background-color: #E2B5B5;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+}
+
+.sectionTitle {
+  color: #3D50E2;
+  text-align: center;
+  font-family: 'Patua One', cursive;
+  font-size: 4rem;
+}
+
+#howtoplay {
+  font-family: 'Patua One', cursive;
+  font-size: 2rem;
+}
+
+
+
+.contact h3 {
+  text-align: center;
+}
+
+footer {
+  margin-top: 0px;
+  color: white;
+  background-color: darkgrey;
+  min-height: 100px;
+}
+
+footer .p {
+  margin-top: 30px;
+}
+
+footer .copyright {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#rules {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+}
+
+#pageTitle {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+}
+
+#blankLine {
+  min-height: 50px;
+}
+
+
+
+h1 {
+color: darkblue;
+}
+.score {
+color: gray;
+}
+.gold {
+  color: gold;
+}
+
+#gameLink {
+text-align: center;
+border: 1px solid gray;
+}
+#greeting {
+  display: none;
+  position: absolute; left: 40%;
+  top: 40%;
+  background: #fff; width: 350px;
+  height: 200px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+                  }
+
+.contactInformation {
+  text-align: center;
+}
+
+
+#buttons {
+  text-align: center;
+}
+
+.thanks {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+}
+
+
+
+
+
+
+header .row {
+min-height: 70vh;
+background-image: url(../assets/flappy-header.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+align-items: center;
+color: white;
+margin-bottom: 0px;
+
+}
+
+header .formReservation {
+background-color: rgba(0,0,0,0.5);
+min-height: 70vh;
+display: flex;
+align-items: center;
+
+font-family: 'Pacifico', cursive;
+}
+
+/* header h2 {
+font-family: 'Dancing Script', cursive;
+} */
+
+/* header .slogan {
+display: flex;
+min-height: 70vh;
+align-items: flex-end;
+justify-content: flex-end;
+} */
+
+@media (max-width: 768px) {
+header .slogan {
+display: none;
+}
+}
+
+
+
+
+
+/* Style all font awesome icons */
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fab:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+/* Instagram */
+.fa-instagram {
+  color: white;
+}
+
+
+/* .button #scoresbtn: hover {
+  background-color: grey;
+  border-radius: 12px;
+  transition-duration: 2s;
+} */

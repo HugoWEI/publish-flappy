@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+
+<!-- STYLE -->
+    <!-- My stylesheet -->
+        <link rel="stylesheet" href="../assets/style.css">
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="../lib/bootstrap.css">
+<!-- END STYLE -->
+
+        <title>Flappy Bird</title>
+
+
+<!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Patua+One|Shadows+Into+Light&display=swap" rel="stylesheet">
+<!-- END FONTS -->
+
+
+<!-- Font awesome - Icones -->
+
+<script src="https://kit.fontawesome.com/942a8fed6a.js"></script>
+
+
+
+  </head>
+  <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+  <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+  <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+  <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+  <body id="gameSiteBody">
+
+
+
+<!-- ******* HEADER ******* -->
+<header class="container-fluid">
+   <div class="row">
+
+<!-- 1ère Colonne -->
+    <div class="col-12 col-md-6 formReservation d-flex align-items-center">
+        <div>
+          <!-- Ici tu mettras ton slogan ou un truc du style avec Pierre Hébert en route pour Colombes ;) ou truc du genre -->
+          <h1>Welcome to my Flappy Weird game !</h1>
+        </div>
+    </div>
+
+<!-- 2ème Colonne -->
+    <div class="col-12 col-md-6 slogan">
+
+
+    </div>
+   </div>
+
+</header>
+
+<!-- ******* FIN HEADER ******* -->
+
+
+
+
+<div class="siteMain">
+
+
+  <h3 class="sectionTitle">THE GAME</h3>
+
+<div class="container-fluid">
+<div class="row">
+  <!-- RULES AND EXPLAINATION -->
+    <div class="rulesGame ml-auto">
+        <p id="howtoplay">How to play:</p>
+        <ul id="rules">
+          <li>Press SPACE to flap your wings.</li>
+          <li>Avoid the pipes.</li>
+          <li>If you crash, just try again!</li>
+          <li><a href="game.html">Here will be the game if the page is not charging</a></li>
+        </ul>
+    </div>
+  <!-- END RULES AND EXPLAINATION -->
+</div>
+
+<div class="row">
+    <div class="col-12">
+<p></p>
+    </div>
+</div>
+
+  <div class="row">
+      <div class="col-md-3"><!-- EMPTY COLUMN TO AVOID HAVING THE RULES ABOVE THE GAME --></div>
+      <div class="col-md-6">
+          <!-- THE GAME WINDOW -->
+          <div id="game"> </div>
+          <!-- END GAME WINDOW -->
+      </div>
+      <div class="col-md-3"><!-- EMPTY COLUMN TO AVOID HAVING THE RULES ABOVE THE GAME --></div>
+  </div>
+</div>
+
+<!-- BLANK LINE -->
+<div class="row">
+    <div class="col-12">
+        <p></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <p></p>
+    </div>
+</div>
+<!-- END BLANK LINE -->
+
+<div class="container">
+  <div class="row" id=" buttons">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <button type="button" name="btn btn-default" class="btn btn-primary btn-lg" id="scoresbtn">Scores</button>
+        <button type="button" name="btn btn-default" class="btn btn-primary btn-lg" id="creditsbtn">Credits</button>
+        <button type="button" name="btn btn-default" class="btn btn-primary btn-lg" id="helpbtn">Help</button>
+      </div>
+      <div class="col-md-2"></div>
+
+
+  </div>
+
+  <div>
+    <div id="content"></div>
+  </div>
+</div>
+
+
+
+
+<!-- CONTACT THE DEVELOPPING TEAM -->
+<div class="contact">
+    <h3 class="sectionTitle">CONTACT US !</h3>
+    <div class="thanks">
+    <p><b>Tel:</b> (+33) 07 . 69 . 06 . 95 . 17</p>
+
+    <p>23 rue de la Paix</br>92700, Colombes (France)</p>
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4889.577032418489!2d0.08895645773577474!3d52.21089059105369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8774a3f6e55cd%3A0xabf8227343e684c7!2sComputer+Laboratory%2C+University+of+Cambridge!5e0!3m2!1sfr!2suk!4v1563269311874!5m2!1sfr!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+  </div>
+</div>
+
+
+
+<!-- END CONTACT THE DEVELOPPING TEAM -->
+
+<div class="contact">
+  <h3 class="sectionTitle">SPECIAL THANKS</h3>
+  <div class="thanks">
+    <p>Many thanks to the whole Cambridge Coding Academy for this course, especially Raoul-Gabriel, Julian and Amelia</p>
+    <img src="../assets/logo_small.png" alt="logo" class="img-fluid">
+  </div>
+</div>
+
+
+</div>
+
+
+<footer>
+  <p class="copyright">&copy; Alexandre Hébert, CCA 2019</br>
+
+    <!-- Réseaux sociaux - liens -->
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Add font awesome icons -->
+    <a href="https://fr-fr.facebook.com/92.pierre.hebert" class="fab fa-facebook"></a>
+    <a href="https://twitter.com/pierrehebert92" class="fab fa-twitter"></a>
+    <a href="https://www.instagram.com/pierre.hebert.92/" class="fab fa-instagram"></a>
+
+  </p>
+<!-- Réseaux sociaux - liens -->
+
+</footer>
+
+
+
+<script type="text/javascript" src="../lib/phaser.min.js"></script>
+<script type="text/javascript" src="../js/flappy.js"></script>
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type="text/javascript" src="../js/interactivity.js"></script>
+
+
+
+
+
+  </body>
+</html>
