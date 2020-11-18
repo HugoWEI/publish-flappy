@@ -43,6 +43,7 @@ function preload() {
           // game.load.image("playerImg", "../assets/flappy.png");
           game.load.spritesheet("playerImg", "../assets/mummy.png", 37, 45, 18);
           game.load.image("playerImg1", "../assets/jamesBond.gif");
+          game.load.image("playerImg4", "../assets/otis.jpeg");
           game.load.image("playerImg2", "../assets/flappy.png");
           game.load.image("playerImg3", "../assets/jamesBond.gif");
           game.load.image("pipeBlock", "../assets/pipe2-body.png");
@@ -74,7 +75,7 @@ function create() {
         game.add.tileSprite(0, 0, width, height, "bcgd")
 
 
-        player = game.add.sprite(200, 50, "playerImg");
+        player = game.add.sprite(200, 50, "playerImg4"); /////////////////////
         game.physics.arcade.enable(player);
 
         player.anchor.setTo(0.5, 0.5);
