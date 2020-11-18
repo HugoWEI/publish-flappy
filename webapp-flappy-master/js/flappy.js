@@ -40,7 +40,7 @@ var game = new Phaser.Game(width, height, Phaser.AUTO, 'game', stateActions);
  */
 function preload() {
 
-         game.load.image("playerImg", "../assets/otis.jpeg");
+         game.load.image("playerImg", "../assets/flag.jpg");
          // game.load.spritesheet("playerImg", "../assets/mummy.png", 37, 45, 18);
          // game.load.spritesheet("playerImg", "../assets/otis.jpeg", 37, 45, 18);
         //  game.load.spritesheet("playerImg", "../assets/otis.jpeg");
