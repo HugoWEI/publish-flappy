@@ -75,7 +75,7 @@ function create() {
         game.add.tileSprite(0, 0, width, height, "bcgd")
 
 
-        player = game.add.sprite(200, 50, "playerImg4"); /////////////////////
+        player = game.add.sprite(200, 50, "playerImg"); /////////////////////
         game.physics.arcade.enable(player);
 
         player.anchor.setTo(0.5, 0.5);
