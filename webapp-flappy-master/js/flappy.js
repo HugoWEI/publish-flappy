@@ -119,8 +119,8 @@ function create() {
             );
 
 
-            var walk = player.animations.add('walk');
-            player.animations.play('walk', 30, true);
+      //      var walk = player.animations.add('walk'); ///////////////////
+      //      player.animations.play('walk', 30, true); //////////////////
 
 }
 
