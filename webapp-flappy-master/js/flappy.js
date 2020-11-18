@@ -40,10 +40,10 @@ var game = new Phaser.Game(width, height, Phaser.AUTO, 'game', stateActions);
  */
 function preload() {
 
-          // game.load.image("playerImg", "../assets/flappy.png");
+          game.load.image("playerImg", "../assets/otis.jpeg");
          // game.load.spritesheet("playerImg", "../assets/mummy.png", 37, 45, 18);
          // game.load.spritesheet("playerImg", "../assets/otis.jpeg", 37, 45, 18);
-          game.load.spritesheet("playerImg", "../assets/otis.jpeg");
+        //  game.load.spritesheet("playerImg", "../assets/otis.jpeg");
           game.load.image("playerImg1", "../assets/jamesBond.gif");
          // game.load.image("playerImg4", "../assets/otis.jpeg");
           game.load.image("playerImg2", "../assets/flappy.png");
