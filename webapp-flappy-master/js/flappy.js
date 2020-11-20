@@ -41,7 +41,7 @@ var game = new Phaser.Game(width, height, Phaser.AUTO, 'game', stateActions);
 function preload() {
 
        //  game.load.image("playerImg", "../assets/flag.jpg", 37, 45, 18);
-        game.load.spritesheet("playerImg", "../assets/patricemummy.png", 100, 100, 100);
+        game.load.spritesheet("playerImg", "../assets/patricemummy.png", 40, 40, 40);
          // game.load.spritesheet("playerImg", "../assets/otis.jpeg", 37, 45, 18);
         //  game.load.spritesheet("playerImg", "../assets/otis.jpeg");
           game.load.image("playerImg1", "../assets/jamesBond.gif");
@@ -77,7 +77,7 @@ function create() {
         game.add.tileSprite(0, 0, width, height, "bcgd")
 
 
-        player = game.add.sprite(200, 100, "playerImg"); /////////////////////
+        player = game.add.sprite(200, 50, "playerImg"); /////////////////////
         game.physics.arcade.enable(player);
 
         player.anchor.setTo(0.5, 0.5);
